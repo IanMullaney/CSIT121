@@ -1,0 +1,22 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: arial;
+}
+
+header{
+    color: white;
+    font-size: .8em
+}
+
+main{
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(33, 33, 33);
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    border: solid;
+}

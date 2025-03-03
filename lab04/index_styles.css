@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(109, 109, 109); 
+    font-family:arial;
+}
+
+header{
+    font-size: .8em; 
+    color: rgb(255, 255, 255)
+}
+
+main{
+    width: 90%; 
+    margin: 10px;
+    background-color:rgb(255, 255, 255);
+    padding: 15px;
+    padding-bottom: 300px;
+}
+
+h1{
+    text-align:center; 
+    border: solid;
+}
