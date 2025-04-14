@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab07-Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <nav>
+      <a href="tierlist.html">Tier List</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  
+    <header>
+      <h1>Contact Me About My Tier List</h1>
+    </header>
+  
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+  
+      <label for="tier-favorite">Which candy tier is your favorite?</label>
+      <select id="tier-favorite" name="tier-favorite">
+        <option value="S">S</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+  
+      <fieldset>
+        <legend>Do you agree with my S-tier choices?</legend>
+        <label><input type="radio" name="agree" value="yes" /> Yes</label>
+        <label><input type="radio" name="agree" value="no" /> No</label>
+      </fieldset>
+  
+      <label for="change">What would you change about my tier list?</label>
+      <textarea id="change" name="change" rows="4"></textarea>
+  
+      <label><input type="checkbox" name="newsletter" /> Subscribe to candy updates!</label>
+  
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: rgb(146, 146, 245);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header {
+    color: rgb(146, 146, 245);
+    padding: 2em;
+    text-align: center;
+  }
+  
+  table {
+    width: 90%;
+    margin: 2em auto;
+    border-collapse: collapse;
+  }
+
+  .content-table thead tr{
+    background-color: rgb(146, 146, 245);
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .content-table th,
+  .content-table td{
+    text-align: center;
+    padding: 12px 15px;
+  }
+
+  .content-table tbody tr{
+    border: 1px solid #dddddd
+  }
+
+  .content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+  }
+
+  .content-table tbody tr:last-of-type{
+    border-bottom: 3px solid rgb(146, 146, 245);
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #efebff;
+    border-radius: 8px;
+  }
+  
+  label, legend {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
